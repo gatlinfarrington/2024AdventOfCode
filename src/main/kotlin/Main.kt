@@ -1,7 +1,14 @@
 package org.gatlin
 
+import java.time.LocalDate
+import java.time.ZoneId
+
 
 fun main() {
-//    Day1.doDay1Part1()
-    Day1.doDay1Part2()
+    val estZoneId = ZoneId.of("America/New_York")
+    val currentDayOfMonthInEST = LocalDate.now(estZoneId).dayOfMonth
+    println("Today's day of the month is: $currentDayOfMonthInEST")
+
+    val solution = Helpers.getSolveMethodForDay(currentDayOfMonthInEST)
+    solution()
 }
