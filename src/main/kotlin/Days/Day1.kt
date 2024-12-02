@@ -16,7 +16,7 @@ class Day1: Day(){
         val list1: MutableList<Int> = mutableListOf()
         val list2: MutableList<Int> = mutableListOf()
 
-        val input = Helpers.readFileFromResources("Day1Part1.txt")
+        val input = Helpers.readFileFromResources("1.txt")
 
         for(line in input.split("\n")){
             val firstVal = line.split(" ").first()
