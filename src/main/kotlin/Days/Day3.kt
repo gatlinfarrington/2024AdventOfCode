@@ -1,7 +1,10 @@
 package org.gatlin.Days
 
+import org.gatlin.Helpers
+
 class Day3: Day() {
     override fun solve(){
-        TODO("Haven't solved this day yet")
+        val input = Helpers.readFileFromResources("3.txt")
+
     }
 }

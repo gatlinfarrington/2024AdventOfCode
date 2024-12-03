@@ -43,3 +43,4 @@ bin/
 
 ### input ###
 /src/main/resources/*.txt
+/src/main/kotlin/fetch_input.sh
