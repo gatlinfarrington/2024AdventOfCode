@@ -37,7 +37,7 @@ class Day4: Day() {
 
         for (x in grid.indices) {
             for (y in grid[x].indices) {
-                if (grid[x][y].uppercaseChar() == word[0]) {
+                if (grid[x][y] == word[0]) {
                     for ((dx, dy) in directions) {
                         if (checkDirection(x, y, dx, dy)) {
                             result.add(Pair(x, y))
