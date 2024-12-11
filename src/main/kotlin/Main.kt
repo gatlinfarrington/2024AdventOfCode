@@ -9,6 +9,6 @@ fun main() {
     val currentDayOfMonthInEST = LocalDate.now(estZoneId).dayOfMonth
     println("Today's day of the month is: $currentDayOfMonthInEST")
 
-    val solution = Helpers.getSolveMethodForDay(currentDayOfMonthInEST)
+    val solution = Helpers.getSolveMethodForDay(7)
     solution()
 }
